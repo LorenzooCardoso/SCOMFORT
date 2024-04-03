@@ -13,25 +13,91 @@ main{
 
 .logo{
     height: 300px;
-    margin-left: 35vw;
-    position: absolute;
+    margin-left: 40vw;
+    position: relative;
 }
 
+
 .icons{
-    margin-top: 60vh;
-    position: absolute;
-    margin-left: 35vw;
-    display: grid;
+    position: relative;
+    margin-left: 39vw;
+    display: flex;
 }
 
 #cart{
     height: 100px;
+    padding: 20px;
 }
 
 #signup{
-    height: 100px;   
+    height: 100px;
+    padding: 20px;
 }
 
 #info{
     height: 100px;
+    padding: 20px;
+}
+.quemsomos{
+position: absolute;
+width: 1440px;
+height: 723px;
+left: 0px;
+top: 1226px;
+box-sizing: border-box;
+position: absolute;
+bottom: 0%;
+background: #35597B;
+border: 5px solid #394250;
+position: absolute;
+right: 47.57%;
+font-family: 'Kavoon';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 100px;
+color: #FFBD59;
+border: 3px solid #000000;
+
+
+
+
+
+font-family: 'Kavoon';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 62px;
+
+color: #FFBD59;
+
+border: 3px solid #000000;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .logo{
+        height: 10em;
+        margin-left: 30vw;
+        position: relative;
+    }
+    .icons{
+        position: relative;
+        margin-left: 25vw;
+        display: flex;
+    }
+    #cart{
+        height: 3em;
+        padding: 1em;
+    }
+    
+    #signup{
+        height: 3em;
+        padding: 1em;
+    }
+    
+    #info{
+        height: 3em;
+        padding: 1em;
+    }
 }
